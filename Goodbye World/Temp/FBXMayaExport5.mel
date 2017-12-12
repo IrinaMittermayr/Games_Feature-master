@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/Irina/Documents/HAGENBERG/3_Semester/GameDesign/Goodbye World/Assets/Blockinng/Blocking.mb"`)
+{		
+	file -o "/Users/Irina/Documents/HAGENBERG/3_Semester/GameDesign/Goodbye World/Assets/Blockinng/Blocking.mb";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/Irina/Documents/HAGENBERG/3_Semester/GameDesign/Goodbye World/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "/Users/Irina/Documents/HAGENBERG/3_Semester/GameDesign/Goodbye World/Temp/CommandPipe";
+
+$donepipeKill = `fopen "/Users/Irina/Documents/HAGENBERG/3_Semester/GameDesign/Goodbye World/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;
