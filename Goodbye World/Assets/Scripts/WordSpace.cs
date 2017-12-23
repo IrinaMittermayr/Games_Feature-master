@@ -6,7 +6,7 @@ public class WordSpace : MonoBehaviour {
     public GameObject slottedWord = null;
     private MainManager mainManager;
 
-    void Start () {
+    public virtual void Start () {
         mainManager = GameObject.Find("Main Manager").GetComponent<MainManager>();
 	}
 
