@@ -17,7 +17,7 @@ public class WordSpaceBridge : WordSpace {
             {
                 case "WordDum":
                     //make bridge 0°
-                    bridgeAnchor.transform.rotation = Quaternion.Euler(0f,0f,45f);
+                    bridgeAnchor.transform.rotation = Quaternion.Euler(0f, 0f, 45f);
                 break;
                 case "WordBloed":
                     //make bridge 45°
