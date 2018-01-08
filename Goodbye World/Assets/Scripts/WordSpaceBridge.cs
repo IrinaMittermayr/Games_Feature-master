@@ -13,20 +13,20 @@ public class WordSpaceBridge : WordSpace {
     void Update () {
         if (slottedWord != null)
         {
-            switch (slottedWord.name)
+            switch (slottedWord.GetComponent<Word>().word)
             {
-                case "WordDum":
+                case "fortyfive":
                     //make bridge 0°
-                    bridgeAnchor.transform.rotation = Quaternion.Euler(0f, 0f, 45f);
+                    bridgeAnchor.transform.rotation = Quaternion.Euler(90f, 20f, 0f);
                 break;
-                case "WordBloed":
+                case "zero":
                     //make bridge 45°
-                    bridgeAnchor.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+                    bridgeAnchor.transform.rotation = Quaternion.Euler(45f, 20f, 0f);
                     break;
             }
         } else
         {
-            //make bridge broken
+            bridgeAnchor.transform.rotation = Quaternion.Euler(0f, 100f, -190f);
         }
 	}
 }

@@ -23,7 +23,8 @@ class CharacterMotorMovement {
 	// The maximum horizontal speed when moving
 	var maxForwardSpeed : float = 10.0;
 	var maxSidewaysSpeed : float = 10.0;
-	var maxBackwardsSpeed : float = 10.0;
+    var maxBackwardsSpeed: float = 10.0;
+    var isAbleToFall: boolean = false;
 	
 	// Curve for multiplying speed based on slope (negative = downwards)
 	var slopeSpeedMultiplier : AnimationCurve = AnimationCurve(Keyframe(-90, 1), Keyframe(0, 1), Keyframe(90, 0));
@@ -55,7 +56,9 @@ class CharacterMotorMovement {
 	var hitPoint : Vector3 = Vector3.zero;
 	
 	@System.NonSerialized
-	var lastHitPoint : Vector3 = Vector3(Mathf.Infinity, 0, 0);
+    var lastHitPoint: Vector3 = Vector3(Mathf.Infinity, 0, 0);
+
+
 }
 
 var movement : CharacterMotorMovement = CharacterMotorMovement();
@@ -399,8 +402,15 @@ private function ApplyGravityAndJumping (velocity : Vector3) {
 	if (grounded)
 		velocity.y = Mathf.Min(0, velocity.y) - movement.gravity * Time.deltaTime;
 	else {
-		velocity.y = movement.velocity.y - movement.gravity * Time.deltaTime;
-		
+        
+        if (movement.isAbleToFall) {
+            velocity.y = movement.velocity.y - 15 * Time.deltaTime;
+        }
+        else if (movement.gravity == 0) {
+            velocity.y = 0;
+        } else {
+            velocity.y = movement.velocity.y - movement.gravity * Time.deltaTime;
+        }
 		// When jumping up we don't apply gravity for some time when the user is holding the jump button.
 		// This gives more control over jump height by pressing the button longer.
 		if (jumping.jumping && jumping.holdingJumpButton) {
