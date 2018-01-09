@@ -5,7 +5,6 @@ using UnityEngine;
 public class WordSpaceGravity : WordSpace {
     public string action;
     public GameObject m_player;
-    public GameObject m_bar;
 
 
     void Update () {
@@ -15,8 +14,6 @@ public class WordSpaceGravity : WordSpace {
             {
                 case "zero":
                     m_player.GetComponent<CharacterMotor>().movement.gravity = 0;
-                    m_bar.GetComponent<MeshCollider>().enabled = false;
-                    m_bar.GetComponent<MeshRenderer>().enabled = false;
                     break;
                 case "fifteen":
                     m_player.GetComponent<CharacterMotor>().movement.gravity = 15;

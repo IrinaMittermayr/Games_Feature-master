@@ -131,10 +131,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 917, y: 392}
-  m_MaxSize: {x: 22012, y: 14042}
+  m_MinSize: {x: 915, y: 392}
+  m_MaxSize: {x: 22010, y: 14042}
   vertical: 0
-  controlID: 9
+  controlID: 47
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,10 +155,10 @@ MonoBehaviour:
     y: 0
     width: 1945
     height: 1307
-  m_MinSize: {x: 640, y: 392}
-  m_MaxSize: {x: 18010, y: 14042}
+  m_MinSize: {x: 638, y: 392}
+  m_MaxSize: {x: 18008, y: 14042}
   vertical: 1
-  controlID: 10
+  controlID: 48
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -180,10 +180,10 @@ MonoBehaviour:
     y: 0
     width: 1945
     height: 926
-  m_MinSize: {x: 640, y: 271}
-  m_MaxSize: {x: 18010, y: 10021}
+  m_MinSize: {x: 638, y: 271}
+  m_MaxSize: {x: 18008, y: 10021}
   vertical: 0
-  controlID: 11
+  controlID: 49
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -202,8 +202,8 @@ MonoBehaviour:
     y: 0
     width: 344
     height: 926
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -390,9 +390,9 @@ MonoBehaviour:
     height: 905
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f8270000
-    m_LastClickedID: 10232
-    m_ExpandedIDs: e2fbffff000000001027000082270000be270000
+    m_SelectedIDs: b8270000
+    m_LastClickedID: 10168
+    m_ExpandedIDs: e2fbffff0000000040270000b8270000f6270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -442,14 +442,14 @@ MonoBehaviour:
     width: 1137
     height: 905
   m_SceneLighting: 1
-  lastFramingTime: 18934.830415876517
+  lastFramingTime: 2694.3297572493816
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -14.742465, y: -0.9463094, z: 16.591513}
+    m_Target: {x: 64.5371, y: -112.053734, z: 83.856026}
     speed: 2
-    m_Value: {x: -14.742465, y: -0.9463094, z: 16.591513}
+    m_Value: {x: 64.5371, y: -112.053734, z: 83.856026}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -472,13 +472,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.23170523, y: 0.7465579, z: -0.32481393, w: -0.5324096}
+    m_Target: {x: 0.37715542, y: 0.33335757, z: -0.14767702, w: 0.85136247}
     speed: 2
-    m_Value: {x: -0.23170523, y: 0.7465579, z: -0.32481393, w: -0.5324096}
+    m_Value: {x: 0.37715542, y: 0.33335757, z: -0.14767702, w: 0.85136247}
   m_Size:
-    m_Target: 95.97889
+    m_Target: 261.85788
     speed: 2
-    m_Value: 95.97889
+    m_Value: 261.85788
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -552,19 +552,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Textures
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Textures
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Hagenbergage\Goodbye World\Games_Feature-master\Goodbye World
   m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e250000
-    m_LastClickedID: 9518
-    m_ExpandedIDs: 00000000e424000034250000b6250000c625000000ca9a3bffffff7f
+    m_SelectedIDs: ea250000
+    m_LastClickedID: 9706
+    m_ExpandedIDs: 00000000e42400003e25000048250000ce250000d2250000e42500005c29000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -592,7 +592,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e424000034250000b6250000c6250000
+    m_ExpandedIDs: 00000000e424000048250000d2250000e4250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -623,18 +623,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 90410000ac410000524e0000523100005a290000f2210000fc210000f42100008c230000fa2100007a220000000000000c22000018240000722900006c360000ea290000fa250000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Signs
+      m_OriginalName: Signs
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 10588
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 2}
     m_CreateAssetUtility:
