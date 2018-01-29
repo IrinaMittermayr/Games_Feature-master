@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: f6fc2f70d6e144b45909de495f945933
+timeCreated: 1517246579
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Assets2:Tree:Leaves
+    100002: Assets2:Tree:Leaves 1
+    100004: Assets2:Tree:Leaves1
+    100006: Assets2:Tree:Leaves10
+    100008: Assets2:Tree:Leaves11
+    100010: Assets2:Tree:Leaves12
+    100012: Assets2:Tree:Leaves13
+    100014: Assets2:Tree:Leaves2
+    100016: Assets2:Tree:Leaves3
+    100018: Assets2:Tree:Leaves4
+    100020: Assets2:Tree:Leaves5
+    100022: Assets2:Tree:Leaves6
+    100024: Assets2:Tree:Leaves7
+    100026: Assets2:Tree:Leaves8
+    100028: Assets2:Tree:Leaves9
+    100030: Assets2:Tree:TreeInPot
+    100032: //RootNode
+    400000: Assets2:Tree:Leaves
+    400002: Assets2:Tree:Leaves 1
+    400004: Assets2:Tree:Leaves1
+    400006: Assets2:Tree:Leaves10
+    400008: Assets2:Tree:Leaves11
+    400010: Assets2:Tree:Leaves12
+    400012: Assets2:Tree:Leaves13
+    400014: Assets2:Tree:Leaves2
+    400016: Assets2:Tree:Leaves3
+    400018: Assets2:Tree:Leaves4
+    400020: Assets2:Tree:Leaves5
+    400022: Assets2:Tree:Leaves6
+    400024: Assets2:Tree:Leaves7
+    400026: Assets2:Tree:Leaves8
+    400028: Assets2:Tree:Leaves9
+    400030: Assets2:Tree:TreeInPot
+    400032: //RootNode
+    2100000: Assets2_Tree_lambert4
+    2100002: lambert1
+    2100004: Assets2_Tree_lambert3
+    2100006: Assets2_Tree_lambert2
+    2300000: Assets2:Tree:Leaves 1
+    2300002: Assets2:Tree:Leaves1
+    2300004: Assets2:Tree:Leaves10
+    2300006: Assets2:Tree:Leaves11
+    2300008: Assets2:Tree:Leaves12
+    2300010: Assets2:Tree:Leaves13
+    2300012: Assets2:Tree:Leaves2
+    2300014: Assets2:Tree:Leaves3
+    2300016: Assets2:Tree:Leaves4
+    2300018: Assets2:Tree:Leaves5
+    2300020: Assets2:Tree:Leaves6
+    2300022: Assets2:Tree:Leaves7
+    2300024: Assets2:Tree:Leaves8
+    2300026: Assets2:Tree:Leaves9
+    2300028: Assets2:Tree:TreeInPot
+    3300000: Assets2:Tree:Leaves 1
+    3300002: Assets2:Tree:Leaves1
+    3300004: Assets2:Tree:Leaves10
+    3300006: Assets2:Tree:Leaves11
+    3300008: Assets2:Tree:Leaves12
+    3300010: Assets2:Tree:Leaves13
+    3300012: Assets2:Tree:Leaves2
+    3300014: Assets2:Tree:Leaves3
+    3300016: Assets2:Tree:Leaves4
+    3300018: Assets2:Tree:Leaves5
+    3300020: Assets2:Tree:Leaves6
+    3300022: Assets2:Tree:Leaves7
+    3300024: Assets2:Tree:Leaves8
+    3300026: Assets2:Tree:Leaves9
+    3300028: Assets2:Tree:TreeInPot
+    4300000: Assets2:Tree:Leaves
+    4300002: Assets2:Tree:Leaves1
+    4300004: Assets2:Tree:Leaves2
+    4300006: Assets2:Tree:Leaves3
+    4300008: Assets2:Tree:Leaves4
+    4300010: Assets2:Tree:Leaves5
+    4300012: Assets2:Tree:Leaves6
+    4300014: Assets2:Tree:Leaves7
+    4300016: Assets2:Tree:Leaves8
+    4300018: Assets2:Tree:Leaves9
+    4300020: Assets2:Tree:Leaves10
+    4300022: Assets2:Tree:Leaves11
+    4300024: Assets2:Tree:Leaves12
+    4300026: Assets2:Tree:Leaves13
+    4300028: Assets2:Tree:TreeInPot
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

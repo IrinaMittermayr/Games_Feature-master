@@ -3,7 +3,7 @@ guid: cd21cbd677fa2844f915fe4114f74593
 timeCreated: 1514381055
 licenseType: Free
 ModelImporter:
-  serializedVersion: 19
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     100002: Circle
@@ -26,6 +26,8 @@ ModelImporter:
     100036: Cube_014
     100038: Cube_015
     100040: Text
+    100042: Terrain
+    100044: Waterfall
     400000: //RootNode
     400002: Circle
     400004: Plane
@@ -47,6 +49,8 @@ ModelImporter:
     400036: Cube_014
     400038: Cube_015
     400040: Text
+    400042: Terrain
+    400044: Waterfall
     2300000: //RootNode
     2300002: Circle
     2300004: Plane
@@ -68,6 +72,8 @@ ModelImporter:
     2300036: Cube_014
     2300038: Cube_015
     2300040: Text
+    2300042: Terrain
+    2300044: Waterfall
     3300000: //RootNode
     3300002: Circle
     3300004: Plane
@@ -89,6 +95,8 @@ ModelImporter:
     3300036: Cube_014
     3300038: Cube_015
     3300040: Text
+    3300042: Terrain
+    3300044: Waterfall
     4300000: Circle
     4300002: Plane
     4300004: Cube_003
@@ -109,12 +117,31 @@ ModelImporter:
     4300034: Cube_012
     4300036: Cube_011
     4300038: Cube_010
+    4300040: Terrain
+    4300042: Waterfall
     7400000: Default Take
     9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 034818a8f62f95d41ac533ee1f650100, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material__shade_png
+    second: {fileID: 2100000, guid: bec69c80d07e50146a990f40c17da364, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 67bd524ee4b7eee408480c3b168ff10e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -127,12 +154,14 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -140,13 +169,18 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -156,6 +190,7 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
