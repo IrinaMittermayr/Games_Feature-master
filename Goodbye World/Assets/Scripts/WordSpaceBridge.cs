@@ -17,11 +17,19 @@ public class WordSpaceBridge : WordSpace {
             {
                 case "fortyfive":
                     //make bridge 0°
-                    bridgeAnchor.transform.rotation = Quaternion.Euler(90f, 20f, 0f);
-                break;
+                    bridgeAnchor.transform.rotation = Quaternion.Euler(270f, 20f, 180f);
+                    break;
                 case "zero":
                     //make bridge 45°
-                    bridgeAnchor.transform.rotation = Quaternion.Euler(45f, 20f, 0f);
+                    bridgeAnchor.transform.rotation = Quaternion.Euler(225f, 20f, 180f);
+                    break;
+                case "one":
+                    //make bridge 1°
+                    bridgeAnchor.transform.rotation = Quaternion.Euler(226f, 20f, 180f);
+                    break;
+                case "fifteen":
+                    //make bridge 15°
+                    bridgeAnchor.transform.rotation = Quaternion.Euler(240f, 20f, 180f);
                     break;
             }
         } else

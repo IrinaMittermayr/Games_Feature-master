@@ -16,17 +16,24 @@ public class WordSpaceTowerSize : WordSpace {
             switch (slottedWord.GetComponent<Word>().word)
             {
                 case "fortyfive":
-                    //make bridge 0°
                     towerAnchor.transform.localScale = new Vector3(1, 1, 1);
-                break;
+                    break;
                 case "zero":
-                    //make bridge 45°
+                    towerAnchor.transform.localScale = new Vector3(0.0f, 0.0f, 0.0f);
+                    break;
+                case "one":
                     towerAnchor.transform.localScale = new Vector3(0.022f, 0.022f, 0.022f);
+                    break;
+                case "fifteen":
+                    towerAnchor.transform.localScale = new Vector3(0.333f, 0.333f, 0.333f);
+                    break;
+                default:
+                    towerAnchor.transform.localScale = new Vector3(0.076f, 0.07f, 0.0245f);
                     break;
             }
         } else
         {
-            towerAnchor.transform.localScale = new Vector3(-0.076f, -0.07f, -0.0245f);
+            towerAnchor.transform.localScale = new Vector3(0.076f, 0.07f, 0.0245f);
         }
 	}
 }
