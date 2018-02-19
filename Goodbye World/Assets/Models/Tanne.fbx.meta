@@ -30,7 +30,17 @@ ModelImporter:
     4300004: pCone2
     4300006: pCone3
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: 0d61b837397c7f94db20e0b32c9152bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: e65090df1a5851448aca41cccfc197ee, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

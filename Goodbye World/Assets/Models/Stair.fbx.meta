@@ -119,7 +119,12 @@ ModelImporter:
     4300040: stair:pPipe21
     4300042: stair:pPipe22
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 28807345d85030c44bf4a4d26660c1d7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

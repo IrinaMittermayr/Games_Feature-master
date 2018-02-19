@@ -16,7 +16,12 @@ ModelImporter:
     4300000: pSphere1
     4300002: Busch
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert5
+    second: {fileID: 2100000, guid: 92c295061a64d17409427a0870f8d687, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

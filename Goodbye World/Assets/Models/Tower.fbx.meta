@@ -705,7 +705,12 @@ ModelImporter:
     4300042: tower:pPipe44
     4300044: tower:group14_group13_pPipe10
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 0d61b837397c7f94db20e0b32c9152bd, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

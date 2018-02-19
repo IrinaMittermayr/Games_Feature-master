@@ -56,7 +56,17 @@ ModelImporter:
     4300012: pSphere7
     4300014: Assets2:Tree:TreeInPot
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Assets2_Tree_lambert12
+    second: {fileID: 2100000, guid: 5d0c8c3e46ccdf04b93a8d7829933188, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert13
+    second: {fileID: 2100000, guid: 92c295061a64d17409427a0870f8d687, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
