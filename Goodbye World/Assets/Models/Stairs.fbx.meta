@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: f02a15a56eeae484cae3d2b822286e2e
+timeCreated: 1519028331
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: stair:pPipe1
+    100002: stair:pPipe10
+    100004: stair:pPipe11
+    100006: stair:pPipe12
+    100008: stair:pPipe13
+    100010: stair:pPipe14
+    100012: stair:pPipe15
+    100014: stair:pPipe16
+    100016: stair:pPipe17
+    100018: stair:pPipe18
+    100020: stair:pPipe19
+    100022: stair:pPipe2
+    100024: stair:pPipe20
+    100026: stair:pPipe21
+    100028: stair:pPipe22
+    100030: stair:pPipe3
+    100032: stair:pPipe4
+    100034: stair:pPipe5
+    100036: stair:pPipe6
+    100038: stair:pPipe7
+    100040: stair:pPipe8
+    100042: stair:pPipe9
+    100044: //RootNode
+    400000: stair:pPipe1
+    400002: stair:pPipe10
+    400004: stair:pPipe11
+    400006: stair:pPipe12
+    400008: stair:pPipe13
+    400010: stair:pPipe14
+    400012: stair:pPipe15
+    400014: stair:pPipe16
+    400016: stair:pPipe17
+    400018: stair:pPipe18
+    400020: stair:pPipe19
+    400022: stair:pPipe2
+    400024: stair:pPipe20
+    400026: stair:pPipe21
+    400028: stair:pPipe22
+    400030: stair:pPipe3
+    400032: stair:pPipe4
+    400034: stair:pPipe5
+    400036: stair:pPipe6
+    400038: stair:pPipe7
+    400040: stair:pPipe8
+    400042: stair:pPipe9
+    400044: //RootNode
+    2100000: lambert1
+    2300000: stair:pPipe1
+    2300002: stair:pPipe10
+    2300004: stair:pPipe11
+    2300006: stair:pPipe12
+    2300008: stair:pPipe13
+    2300010: stair:pPipe14
+    2300012: stair:pPipe15
+    2300014: stair:pPipe16
+    2300016: stair:pPipe17
+    2300018: stair:pPipe18
+    2300020: stair:pPipe19
+    2300022: stair:pPipe2
+    2300024: stair:pPipe20
+    2300026: stair:pPipe21
+    2300028: stair:pPipe22
+    2300030: stair:pPipe3
+    2300032: stair:pPipe4
+    2300034: stair:pPipe5
+    2300036: stair:pPipe6
+    2300038: stair:pPipe7
+    2300040: stair:pPipe8
+    2300042: stair:pPipe9
+    3300000: stair:pPipe1
+    3300002: stair:pPipe10
+    3300004: stair:pPipe11
+    3300006: stair:pPipe12
+    3300008: stair:pPipe13
+    3300010: stair:pPipe14
+    3300012: stair:pPipe15
+    3300014: stair:pPipe16
+    3300016: stair:pPipe17
+    3300018: stair:pPipe18
+    3300020: stair:pPipe19
+    3300022: stair:pPipe2
+    3300024: stair:pPipe20
+    3300026: stair:pPipe21
+    3300028: stair:pPipe22
+    3300030: stair:pPipe3
+    3300032: stair:pPipe4
+    3300034: stair:pPipe5
+    3300036: stair:pPipe6
+    3300038: stair:pPipe7
+    3300040: stair:pPipe8
+    3300042: stair:pPipe9
+    4300000: stair:pPipe4
+    4300002: stair:pPipe3
+    4300004: stair:pPipe1
+    4300006: stair:pPipe8
+    4300008: stair:pPipe9
+    4300010: stair:pPipe10
+    4300012: stair:pPipe11
+    4300014: stair:pPipe5
+    4300016: stair:pPipe2
+    4300018: stair:pPipe12
+    4300020: stair:pPipe13
+    4300022: stair:pPipe7
+    4300024: stair:pPipe14
+    4300026: stair:pPipe15
+    4300028: stair:pPipe16
+    4300030: stair:pPipe17
+    4300032: stair:pPipe18
+    4300034: stair:pPipe19
+    4300036: stair:pPipe6
+    4300038: stair:pPipe20
+    4300040: stair:pPipe21
+    4300042: stair:pPipe22
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
