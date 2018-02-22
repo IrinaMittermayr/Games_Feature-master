@@ -100,7 +100,7 @@ namespace Player
                 if (Input.GetAxis("Jump") > 0 && GetComponent<SpaceBarAction>().isJumpEnabled)
                 {
                     _currentVerticalVelocity = m_jumpVelocity;
-                    _currentMovementSpeed = (_speed > 0) ? _speed : 3;
+                    //_currentMovementSpeed = (_speed > 0) ? _speed : 3;
                 }
             }
 

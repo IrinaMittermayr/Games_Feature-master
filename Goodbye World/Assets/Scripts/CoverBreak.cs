@@ -6,6 +6,7 @@ using System.Linq;
 public class CoverBreak : MonoBehaviour {
     public bool isBreakable;
     private Collider[] _colliders;
+    public GameObject wordSpaceAnchor;
 
 
     void FixedUpdate()
@@ -26,8 +27,8 @@ public class CoverBreak : MonoBehaviour {
     {
         if (isBreakable)
         {
-            this.GetComponent<MeshCollider>().enabled = false;
-            this.GetComponent<MeshRenderer>().enabled = false;
+            Destroy(wordSpaceAnchor);
+            Destroy(gameObject);
         }
     }
 }
