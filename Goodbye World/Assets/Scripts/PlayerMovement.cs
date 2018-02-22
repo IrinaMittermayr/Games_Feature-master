@@ -146,7 +146,7 @@ namespace Player
 
             _characterController.Move(transform.rotation * _movement * Time.deltaTime);
 
-            if (!isGrounded)
+            if (!isGrounded && _currentGravity != 0)
             {
                 _movement.x = ((1f - hitNormal.y) * hitNormal.x) * m_slideSpeed;
                 _movement.z = ((1f - hitNormal.y) * hitNormal.z) * m_slideSpeed;
