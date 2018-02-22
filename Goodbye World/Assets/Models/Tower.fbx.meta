@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: d328c7dea2d6bb7419834229b49b8a9d
+timeCreated: 1519062017
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tower:back
+    100004: tower:bottom
+    100006: tower:group1
+    100008: tower:group10
+    100010: tower:group11
+    100012: tower:group12
+    100014: tower:group12 1
+    100016: tower:group12 2
+    100018: tower:group13
+    100020: tower:group13 1
+    100022: tower:group13 2
+    100024: tower:group14
+    100026: tower:group14_group13_pPipe10
+    100028: tower:group15
+    100030: tower:group16
+    100032: tower:group17
+    100034: tower:group18
+    100036: tower:group19
+    100038: tower:group2
+    100040: tower:group4
+    100042: tower:group5
+    100044: tower:group6
+    100046: tower:group7
+    100048: tower:group9
+    100050: tower:left
+    100052: tower:pCube13
+    100054: tower:pCube15
+    100056: tower:pCube16
+    100058: tower:pCylinder23
+    100060: tower:pCylinder24
+    100062: tower:pCylinder25
+    100064: tower:pCylinder26
+    100066: tower:pCylinder29
+    100068: tower:pCylinder33
+    100070: tower:pCylinder34
+    100072: tower:pCylinder35
+    100074: tower:pCylinder36
+    100076: tower:pPipe10
+    100078: tower:pPipe10 1
+    100080: tower:pPipe10 2
+    100082: tower:pPipe10 3
+    100084: tower:pPipe10 4
+    100086: tower:pPipe10 5
+    100088: tower:pPipe100
+    100090: tower:pPipe101
+    100092: tower:pPipe102
+    100094: tower:pPipe103
+    100096: tower:pPipe104
+    100098: tower:pPipe105
+    100100: tower:pPipe13
+    100102: tower:pPipe13 1
+    100104: tower:pPipe13 2
+    100106: tower:pPipe13 3
+    100108: tower:pPipe13 4
+    100110: tower:pPipe13 5
+    100112: tower:pPipe14
+    100114: tower:pPipe14 1
+    100116: tower:pPipe14 2
+    100118: tower:pPipe14 3
+    100120: tower:pPipe14 4
+    100122: tower:pPipe14 5
+    100124: tower:pPipe15
+    100126: tower:pPipe15 1
+    100128: tower:pPipe15 2
+    100130: tower:pPipe15 3
+    100132: tower:pPipe15 4
+    100134: tower:pPipe15 5
+    100136: tower:pPipe16
+    100138: tower:pPipe16 1
+    100140: tower:pPipe16 2
+    100142: tower:pPipe16 3
+    100144: tower:pPipe16 4
+    100146: tower:pPipe16 5
+    100148: tower:pPipe17
+    100150: tower:pPipe17 1
+    100152: tower:pPipe17 2
+    100154: tower:pPipe17 3
+    100156: tower:pPipe17 4
+    100158: tower:pPipe17 5
+    100160: tower:pPipe18
+    100162: tower:pPipe18 1
+    100164: tower:pPipe18 2
+    100166: tower:pPipe18 3
+    100168: tower:pPipe18 4
+    100170: tower:pPipe18 5
+    100172: tower:pPipe19
+    100174: tower:pPipe19 1
+    100176: tower:pPipe19 2
+    100178: tower:pPipe19 3
+    100180: tower:pPipe19 4
+    100182: tower:pPipe20
+    100184: tower:pPipe20 1
+    100186: tower:pPipe20 2
+    100188: tower:pPipe20 3
+    100190: tower:pPipe20 4
+    100192: tower:pPipe20 5
+    100194: tower:pPipe21
+    100196: tower:pPipe21 1
+    100198: tower:pPipe21 2
+    100200: tower:pPipe21 3
+    100202: tower:pPipe21 4
+    100204: tower:pPipe21 5
+    100206: tower:pPipe22
+    100208: tower:pPipe23
+    100210: tower:pPipe24
+    100212: tower:pPipe25
+    100214: tower:pPipe26
+    100216: tower:pPipe27
+    100218: tower:pPipe28
+    100220: tower:pPipe29
+    100222: tower:pPipe3
+    100224: tower:pPipe30
+    100226: tower:pPipe31
+    100228: tower:pPipe32
+    100230: tower:pPipe33
+    100232: tower:pPipe34
+    100234: tower:pPipe35
+    100236: tower:pPipe36
+    100238: tower:pPipe37
+    100240: tower:pPipe40
+    100242: tower:pPipe41
+    100244: tower:pPipe42
+    100246: tower:pPipe43
+    100248: tower:pPipe44
+    100250: tower:pPipe45
+    100252: tower:pPipe46
+    100254: tower:pPipe47
+    100256: tower:pPipe48
+    100258: tower:pPipe49
+    100260: tower:pPipe50
+    100262: tower:pPipe51
+    100264: tower:pPipe52
+    100266: tower:pPipe53
+    100268: tower:pPipe54
+    100270: tower:pPipe55
+    100272: tower:pPipe56
+    100274: tower:pPipe57
+    100276: tower:pPipe58
+    100278: tower:pPipe59
+    100280: tower:pPipe60
+    100282: tower:pPipe61
+    100284: tower:pPipe62
+    100286: tower:pPipe63
+    100288: tower:pPipe64
+    100290: tower:pPipe65
+    100292: tower:pPipe66
+    100294: tower:pPipe67
+    100296: tower:pPipe68
+    100298: tower:pPipe69
+    100300: tower:pPipe70
+    100302: tower:pPipe71
+    100304: tower:pPipe72
+    100306: tower:pPipe73
+    100308: tower:pPipe74
+    100310: tower:pPipe75
+    100312: tower:pPipe76
+    100314: tower:pPipe77
+    100316: tower:pPipe78
+    100318: tower:pPipe79
+    100320: tower:pPipe80
+    100322: tower:pPipe81
+    100324: tower:pPipe82
+    100326: tower:pPipe83
+    100328: tower:pPipe84
+    100330: tower:pPipe85
+    100332: tower:pPipe86
+    100334: tower:pPipe87
+    100336: tower:pPipe88
+    100338: tower:pPipe89
+    100340: tower:pPipe90
+    100342: tower:pPipe91
+    100344: tower:pPipe92
+    100346: tower:pPipe93
+    100348: tower:pPipe94
+    100350: tower:pPipe95
+    100352: tower:pPipe96
+    100354: tower:pPipe97
+    100356: tower:pPipe98
+    100358: tower:pPipe99
+    100360: tower:stair
+    100362: tower:transform1
+    100364: tower:transform10
+    100366: tower:transform100
+    100368: tower:transform101
+    100370: tower:transform102
+    100372: tower:transform103
+    100374: tower:transform104
+    100376: tower:transform105
+    100378: tower:transform106
+    100380: tower:transform107
+    100382: tower:transform108
+    100384: tower:transform109
+    100386: tower:transform11
+    100388: tower:transform110
+    100390: tower:transform111
+    100392: tower:transform112
+    100394: tower:transform113
+    100396: tower:transform114
+    100398: tower:transform115
+    100400: tower:transform116
+    100402: tower:transform117
+    100404: tower:transform118
+    100406: tower:transform119
+    100408: tower:transform12
+    100410: tower:transform120
+    100412: tower:transform121
+    100414: tower:transform122
+    100416: tower:transform123
+    100418: tower:transform124
+    100420: tower:transform125
+    100422: tower:transform126
+    100424: tower:transform127
+    100426: tower:transform128
+    100428: tower:transform129
+    100430: tower:transform13
+    100432: tower:transform130
+    100434: tower:transform131
+    100436: tower:transform132
+    100438: tower:transform14
+    100440: tower:transform15
+    100442: tower:transform16
+    100444: tower:transform17
+    100446: tower:transform18
+    100448: tower:transform19
+    100450: tower:transform2
+    100452: tower:transform20
+    100454: tower:transform21
+    100456: tower:transform22
+    100458: tower:transform23
+    100460: tower:transform24
+    100462: tower:transform25
+    100464: tower:transform26
+    100466: tower:transform27
+    100468: tower:transform28
+    100470: tower:transform29
+    100472: tower:transform3
+    100474: tower:transform30
+    100476: tower:transform31
+    100478: tower:transform32
+    100480: tower:transform33
+    100482: tower:transform34
+    100484: tower:transform35
+    100486: tower:transform36
+    100488: tower:transform37
+    100490: tower:transform38
+    100492: tower:transform39
+    100494: tower:transform4
+    100496: tower:transform40
+    100498: tower:transform41
+    100500: tower:transform42
+    100502: tower:transform43
+    100504: tower:transform44
+    100506: tower:transform45
+    100508: tower:transform46
+    100510: tower:transform47
+    100512: tower:transform48
+    100514: tower:transform49
+    100516: tower:transform5
+    100518: tower:transform50
+    100520: tower:transform51
+    100522: tower:transform52
+    100524: tower:transform53
+    100526: tower:transform54
+    100528: tower:transform55
+    100530: tower:transform56
+    100532: tower:transform57
+    100534: tower:transform58
+    100536: tower:transform59
+    100538: tower:transform6
+    100540: tower:transform60
+    100542: tower:transform61
+    100544: tower:transform62
+    100546: tower:transform63
+    100548: tower:transform64
+    100550: tower:transform65
+    100552: tower:transform66
+    100554: tower:transform67
+    100556: tower:transform68
+    100558: tower:transform69
+    100560: tower:transform7
+    100562: tower:transform70
+    100564: tower:transform71
+    100566: tower:transform72
+    100568: tower:transform73
+    100570: tower:transform74
+    100572: tower:transform75
+    100574: tower:transform76
+    100576: tower:transform77
+    100578: tower:transform78
+    100580: tower:transform79
+    100582: tower:transform8
+    100584: tower:transform80
+    100586: tower:transform81
+    100588: tower:transform82
+    100590: tower:transform83
+    100592: tower:transform84
+    100594: tower:transform85
+    100596: tower:transform86
+    100598: tower:transform87
+    100600: tower:transform88
+    100602: tower:transform89
+    100604: tower:transform9
+    100606: tower:transform90
+    100608: tower:transform91
+    100610: tower:transform92
+    100612: tower:transform93
+    100614: tower:transform94
+    100616: tower:transform95
+    100618: tower:transform96
+    100620: tower:transform97
+    100622: tower:transform98
+    100624: tower:transform99
+    400000: //RootNode
+    400002: tower:back
+    400004: tower:bottom
+    400006: tower:group1
+    400008: tower:group10
+    400010: tower:group11
+    400012: tower:group12
+    400014: tower:group12 1
+    400016: tower:group12 2
+    400018: tower:group13
+    400020: tower:group13 1
+    400022: tower:group13 2
+    400024: tower:group14
+    400026: tower:group14_group13_pPipe10
+    400028: tower:group15
+    400030: tower:group16
+    400032: tower:group17
+    400034: tower:group18
+    400036: tower:group19
+    400038: tower:group2
+    400040: tower:group4
+    400042: tower:group5
+    400044: tower:group6
+    400046: tower:group7
+    400048: tower:group9
+    400050: tower:left
+    400052: tower:pCube13
+    400054: tower:pCube15
+    400056: tower:pCube16
+    400058: tower:pCylinder23
+    400060: tower:pCylinder24
+    400062: tower:pCylinder25
+    400064: tower:pCylinder26
+    400066: tower:pCylinder29
+    400068: tower:pCylinder33
+    400070: tower:pCylinder34
+    400072: tower:pCylinder35
+    400074: tower:pCylinder36
+    400076: tower:pPipe10
+    400078: tower:pPipe10 1
+    400080: tower:pPipe10 2
+    400082: tower:pPipe10 3
+    400084: tower:pPipe10 4
+    400086: tower:pPipe10 5
+    400088: tower:pPipe100
+    400090: tower:pPipe101
+    400092: tower:pPipe102
+    400094: tower:pPipe103
+    400096: tower:pPipe104
+    400098: tower:pPipe105
+    400100: tower:pPipe13
+    400102: tower:pPipe13 1
+    400104: tower:pPipe13 2
+    400106: tower:pPipe13 3
+    400108: tower:pPipe13 4
+    400110: tower:pPipe13 5
+    400112: tower:pPipe14
+    400114: tower:pPipe14 1
+    400116: tower:pPipe14 2
+    400118: tower:pPipe14 3
+    400120: tower:pPipe14 4
+    400122: tower:pPipe14 5
+    400124: tower:pPipe15
+    400126: tower:pPipe15 1
+    400128: tower:pPipe15 2
+    400130: tower:pPipe15 3
+    400132: tower:pPipe15 4
+    400134: tower:pPipe15 5
+    400136: tower:pPipe16
+    400138: tower:pPipe16 1
+    400140: tower:pPipe16 2
+    400142: tower:pPipe16 3
+    400144: tower:pPipe16 4
+    400146: tower:pPipe16 5
+    400148: tower:pPipe17
+    400150: tower:pPipe17 1
+    400152: tower:pPipe17 2
+    400154: tower:pPipe17 3
+    400156: tower:pPipe17 4
+    400158: tower:pPipe17 5
+    400160: tower:pPipe18
+    400162: tower:pPipe18 1
+    400164: tower:pPipe18 2
+    400166: tower:pPipe18 3
+    400168: tower:pPipe18 4
+    400170: tower:pPipe18 5
+    400172: tower:pPipe19
+    400174: tower:pPipe19 1
+    400176: tower:pPipe19 2
+    400178: tower:pPipe19 3
+    400180: tower:pPipe19 4
+    400182: tower:pPipe20
+    400184: tower:pPipe20 1
+    400186: tower:pPipe20 2
+    400188: tower:pPipe20 3
+    400190: tower:pPipe20 4
+    400192: tower:pPipe20 5
+    400194: tower:pPipe21
+    400196: tower:pPipe21 1
+    400198: tower:pPipe21 2
+    400200: tower:pPipe21 3
+    400202: tower:pPipe21 4
+    400204: tower:pPipe21 5
+    400206: tower:pPipe22
+    400208: tower:pPipe23
+    400210: tower:pPipe24
+    400212: tower:pPipe25
+    400214: tower:pPipe26
+    400216: tower:pPipe27
+    400218: tower:pPipe28
+    400220: tower:pPipe29
+    400222: tower:pPipe3
+    400224: tower:pPipe30
+    400226: tower:pPipe31
+    400228: tower:pPipe32
+    400230: tower:pPipe33
+    400232: tower:pPipe34
+    400234: tower:pPipe35
+    400236: tower:pPipe36
+    400238: tower:pPipe37
+    400240: tower:pPipe40
+    400242: tower:pPipe41
+    400244: tower:pPipe42
+    400246: tower:pPipe43
+    400248: tower:pPipe44
+    400250: tower:pPipe45
+    400252: tower:pPipe46
+    400254: tower:pPipe47
+    400256: tower:pPipe48
+    400258: tower:pPipe49
+    400260: tower:pPipe50
+    400262: tower:pPipe51
+    400264: tower:pPipe52
+    400266: tower:pPipe53
+    400268: tower:pPipe54
+    400270: tower:pPipe55
+    400272: tower:pPipe56
+    400274: tower:pPipe57
+    400276: tower:pPipe58
+    400278: tower:pPipe59
+    400280: tower:pPipe60
+    400282: tower:pPipe61
+    400284: tower:pPipe62
+    400286: tower:pPipe63
+    400288: tower:pPipe64
+    400290: tower:pPipe65
+    400292: tower:pPipe66
+    400294: tower:pPipe67
+    400296: tower:pPipe68
+    400298: tower:pPipe69
+    400300: tower:pPipe70
+    400302: tower:pPipe71
+    400304: tower:pPipe72
+    400306: tower:pPipe73
+    400308: tower:pPipe74
+    400310: tower:pPipe75
+    400312: tower:pPipe76
+    400314: tower:pPipe77
+    400316: tower:pPipe78
+    400318: tower:pPipe79
+    400320: tower:pPipe80
+    400322: tower:pPipe81
+    400324: tower:pPipe82
+    400326: tower:pPipe83
+    400328: tower:pPipe84
+    400330: tower:pPipe85
+    400332: tower:pPipe86
+    400334: tower:pPipe87
+    400336: tower:pPipe88
+    400338: tower:pPipe89
+    400340: tower:pPipe90
+    400342: tower:pPipe91
+    400344: tower:pPipe92
+    400346: tower:pPipe93
+    400348: tower:pPipe94
+    400350: tower:pPipe95
+    400352: tower:pPipe96
+    400354: tower:pPipe97
+    400356: tower:pPipe98
+    400358: tower:pPipe99
+    400360: tower:stair
+    400362: tower:transform1
+    400364: tower:transform10
+    400366: tower:transform100
+    400368: tower:transform101
+    400370: tower:transform102
+    400372: tower:transform103
+    400374: tower:transform104
+    400376: tower:transform105
+    400378: tower:transform106
+    400380: tower:transform107
+    400382: tower:transform108
+    400384: tower:transform109
+    400386: tower:transform11
+    400388: tower:transform110
+    400390: tower:transform111
+    400392: tower:transform112
+    400394: tower:transform113
+    400396: tower:transform114
+    400398: tower:transform115
+    400400: tower:transform116
+    400402: tower:transform117
+    400404: tower:transform118
+    400406: tower:transform119
+    400408: tower:transform12
+    400410: tower:transform120
+    400412: tower:transform121
+    400414: tower:transform122
+    400416: tower:transform123
+    400418: tower:transform124
+    400420: tower:transform125
+    400422: tower:transform126
+    400424: tower:transform127
+    400426: tower:transform128
+    400428: tower:transform129
+    400430: tower:transform13
+    400432: tower:transform130
+    400434: tower:transform131
+    400436: tower:transform132
+    400438: tower:transform14
+    400440: tower:transform15
+    400442: tower:transform16
+    400444: tower:transform17
+    400446: tower:transform18
+    400448: tower:transform19
+    400450: tower:transform2
+    400452: tower:transform20
+    400454: tower:transform21
+    400456: tower:transform22
+    400458: tower:transform23
+    400460: tower:transform24
+    400462: tower:transform25
+    400464: tower:transform26
+    400466: tower:transform27
+    400468: tower:transform28
+    400470: tower:transform29
+    400472: tower:transform3
+    400474: tower:transform30
+    400476: tower:transform31
+    400478: tower:transform32
+    400480: tower:transform33
+    400482: tower:transform34
+    400484: tower:transform35
+    400486: tower:transform36
+    400488: tower:transform37
+    400490: tower:transform38
+    400492: tower:transform39
+    400494: tower:transform4
+    400496: tower:transform40
+    400498: tower:transform41
+    400500: tower:transform42
+    400502: tower:transform43
+    400504: tower:transform44
+    400506: tower:transform45
+    400508: tower:transform46
+    400510: tower:transform47
+    400512: tower:transform48
+    400514: tower:transform49
+    400516: tower:transform5
+    400518: tower:transform50
+    400520: tower:transform51
+    400522: tower:transform52
+    400524: tower:transform53
+    400526: tower:transform54
+    400528: tower:transform55
+    400530: tower:transform56
+    400532: tower:transform57
+    400534: tower:transform58
+    400536: tower:transform59
+    400538: tower:transform6
+    400540: tower:transform60
+    400542: tower:transform61
+    400544: tower:transform62
+    400546: tower:transform63
+    400548: tower:transform64
+    400550: tower:transform65
+    400552: tower:transform66
+    400554: tower:transform67
+    400556: tower:transform68
+    400558: tower:transform69
+    400560: tower:transform7
+    400562: tower:transform70
+    400564: tower:transform71
+    400566: tower:transform72
+    400568: tower:transform73
+    400570: tower:transform74
+    400572: tower:transform75
+    400574: tower:transform76
+    400576: tower:transform77
+    400578: tower:transform78
+    400580: tower:transform79
+    400582: tower:transform8
+    400584: tower:transform80
+    400586: tower:transform81
+    400588: tower:transform82
+    400590: tower:transform83
+    400592: tower:transform84
+    400594: tower:transform85
+    400596: tower:transform86
+    400598: tower:transform87
+    400600: tower:transform88
+    400602: tower:transform89
+    400604: tower:transform9
+    400606: tower:transform90
+    400608: tower:transform91
+    400610: tower:transform92
+    400612: tower:transform93
+    400614: tower:transform94
+    400616: tower:transform95
+    400618: tower:transform96
+    400620: tower:transform97
+    400622: tower:transform98
+    400624: tower:transform99
+    2000000: tower:back
+    2000002: tower:bottom
+    2000004: tower:left
+    2100000: lambert1
+    2300000: tower:group14_group13_pPipe10
+    2300002: tower:pCube13
+    2300004: tower:pCylinder23
+    2300006: tower:pCylinder24
+    2300008: tower:pCylinder25
+    2300010: tower:pCylinder26
+    2300012: tower:pCylinder29
+    2300014: tower:pPipe22
+    2300016: tower:pPipe23
+    2300018: tower:pPipe24
+    2300020: tower:pPipe25
+    2300022: tower:pPipe26
+    2300024: tower:pPipe27
+    2300026: tower:pPipe28
+    2300028: tower:pPipe29
+    2300030: tower:pPipe30
+    2300032: tower:pPipe31
+    2300034: tower:pPipe32
+    2300036: tower:pPipe33
+    2300038: tower:pPipe34
+    2300040: tower:pPipe35
+    2300042: tower:pPipe36
+    2300044: tower:pPipe44
+    3300000: tower:group14_group13_pPipe10
+    3300002: tower:pCube13
+    3300004: tower:pCylinder23
+    3300006: tower:pCylinder24
+    3300008: tower:pCylinder25
+    3300010: tower:pCylinder26
+    3300012: tower:pCylinder29
+    3300014: tower:pPipe22
+    3300016: tower:pPipe23
+    3300018: tower:pPipe24
+    3300020: tower:pPipe25
+    3300022: tower:pPipe26
+    3300024: tower:pPipe27
+    3300026: tower:pPipe28
+    3300028: tower:pPipe29
+    3300030: tower:pPipe30
+    3300032: tower:pPipe31
+    3300034: tower:pPipe32
+    3300036: tower:pPipe33
+    3300038: tower:pPipe34
+    3300040: tower:pPipe35
+    3300042: tower:pPipe36
+    3300044: tower:pPipe44
+    4300000: tower:pCube13
+    4300002: tower:pCylinder29
+    4300004: tower:pCylinder26
+    4300006: tower:pCylinder25
+    4300008: tower:pCylinder23
+    4300010: tower:pCylinder24
+    4300012: tower:pPipe22
+    4300014: tower:pPipe23
+    4300016: tower:pPipe24
+    4300018: tower:pPipe25
+    4300020: tower:pPipe26
+    4300022: tower:pPipe27
+    4300024: tower:pPipe28
+    4300026: tower:pPipe29
+    4300028: tower:pPipe30
+    4300030: tower:pPipe31
+    4300032: tower:pPipe32
+    4300034: tower:pPipe33
+    4300036: tower:pPipe34
+    4300038: tower:pPipe35
+    4300040: tower:pPipe36
+    4300042: tower:pPipe44
+    4300044: tower:group14_group13_pPipe10
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 0d61b837397c7f94db20e0b32c9152bd, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
