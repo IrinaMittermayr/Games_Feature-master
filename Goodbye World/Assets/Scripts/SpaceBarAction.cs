@@ -6,6 +6,7 @@ public class SpaceBarAction : MonoBehaviour {
 
     public bool isDuckEnabled;
     public bool isFallEnabled;
+    public bool isJumpEnabled;
 
 	// Update is called once per frame
 	void Update () {
@@ -17,7 +18,7 @@ public class SpaceBarAction : MonoBehaviour {
             }
             else if(isFallEnabled)
             {
-                GetComponent<CharacterMotor>().movement.isAbleToFall = true;
+                GetComponent<Player.PlayerMovement>().m_isFallEnabled = true;
             }
         }
         else
@@ -27,7 +28,7 @@ public class SpaceBarAction : MonoBehaviour {
                 transform.position += new Vector3(0, 0.5f, 0);
             }
             transform.localScale = new Vector3(1, 1, 1);
-            GetComponent<CharacterMotor>().movement.isAbleToFall = false;
+            GetComponent<Player.PlayerMovement>().m_isFallEnabled = false;
         }
 
 

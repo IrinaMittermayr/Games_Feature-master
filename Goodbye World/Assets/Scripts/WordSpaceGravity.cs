@@ -13,10 +13,10 @@ public class WordSpaceGravity : WordSpace {
             switch(slottedWord.GetComponent<Word>().word)
             {
                 case "zero":
-                    m_player.GetComponent<CharacterMotor>().movement.gravity = 0;
+                    m_player.GetComponent<Player.PlayerMovement>().m_gravity = 0;
                     break;
                 case "fifteen":
-                    m_player.GetComponent<CharacterMotor>().movement.gravity = 15;
+                    m_player.GetComponent<Player.PlayerMovement>().m_gravity = 10;
                     break;
             }
         } else
