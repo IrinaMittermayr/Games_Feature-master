@@ -87,6 +87,8 @@ ModelImporter:
     2100030: Wireframe
     2100032: TerrainMaterial__shade_png
     2100034: TerrainMaterial
+    2100036: StillWater
+    2100038: FlowingWater
     2300000: Circle
     2300002: Cube
     2300004: Cube_001

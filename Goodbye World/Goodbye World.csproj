@@ -292,7 +292,10 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\endscript.cs" />
+    <Compile Include="Assets\menu.cs" />
     <Compile Include="Assets\Respawn.cs" />
+    <Compile Include="Assets\scri.cs" />
     <Compile Include="Assets\Scripts\CoverBreak.cs" />
     <Compile Include="Assets\Scripts\MainManager.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
@@ -307,6 +310,7 @@
     <Compile Include="Assets\Scripts\WordSpaceTowerSize.cs" />
     <Compile Include="Assets\Scripts\WordSpaceWall.cs" />
     <Compile Include="Assets\Scripts\WordSpaceWaterfall.cs" />
+    <Compile Include="Assets\waterfall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\Wireframe.shader" />
