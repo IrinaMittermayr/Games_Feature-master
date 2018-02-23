@@ -35,6 +35,8 @@ ModelImporter:
     100054: Plane_006
     100056: Plane_007
     100058: Plane_008
+    100060: Terrain_000
+    100062: Terrain_001
     400000: Circle
     400002: Cube
     400004: Cube_001
@@ -65,6 +67,8 @@ ModelImporter:
     400054: Plane_006
     400056: Plane_007
     400058: Plane_008
+    400060: Terrain_000
+    400062: Terrain_001
     2100000: Material__shade_png
     2100002: Material
     2100004: unnamed
@@ -79,6 +83,10 @@ ModelImporter:
     2100022: CoverMaterial__towerScale_png
     2100024: BridgeRotation__towerScale_png
     2100026: TowerScale__towerScale_png
+    2100028: Wireframe__shade_png
+    2100030: Wireframe
+    2100032: TerrainMaterial__shade_png
+    2100034: TerrainMaterial
     2300000: Circle
     2300002: Cube
     2300004: Cube_001
@@ -108,6 +116,8 @@ ModelImporter:
     2300052: Plane_006
     2300054: Plane_007
     2300056: Plane_008
+    2300058: Terrain_000
+    2300060: Terrain_001
     3300000: Circle
     3300002: Cube
     3300004: Cube_001
@@ -137,6 +147,8 @@ ModelImporter:
     3300052: Plane_006
     3300054: Plane_007
     3300056: Plane_008
+    3300058: Terrain_000
+    3300060: Terrain_001
     4300000: Terrain
     4300002: Text
     4300004: Cube_015
@@ -166,6 +178,8 @@ ModelImporter:
     4300052: Plane_003
     4300054: Plane_002
     4300056: Plane_001
+    4300058: Terrain_000
+    4300060: Terrain_001
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
