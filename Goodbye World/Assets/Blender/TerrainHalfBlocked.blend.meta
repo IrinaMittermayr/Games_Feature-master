@@ -27,6 +27,14 @@ ModelImporter:
     100038: //RootNode
     100040: Text
     100042: Waterfall
+    100044: Plane_001
+    100046: Plane_002
+    100048: Plane_003
+    100050: Plane_004
+    100052: Plane_005
+    100054: Plane_006
+    100056: Plane_007
+    100058: Plane_008
     400000: Circle
     400002: Cube
     400004: Cube_001
@@ -49,12 +57,28 @@ ModelImporter:
     400038: //RootNode
     400040: Text
     400042: Waterfall
+    400044: Plane_001
+    400046: Plane_002
+    400048: Plane_003
+    400050: Plane_004
+    400052: Plane_005
+    400054: Plane_006
+    400056: Plane_007
+    400058: Plane_008
     2100000: Material__shade_png
     2100002: Material
     2100004: unnamed
     2100006: Material_001__shade_png
     2100008: Material_001
     2100010: None__shade_png
+    2100012: WaterfallParticles__towerScale_png
+    2100014: WallMaterial__towerScale_png
+    2100016: SpacebarAction__towerScale_png
+    2100018: LakeDecoration__towerScale_png
+    2100020: Gravity__towerScale_png
+    2100022: CoverMaterial__towerScale_png
+    2100024: BridgeRotation__towerScale_png
+    2100026: TowerScale__towerScale_png
     2300000: Circle
     2300002: Cube
     2300004: Cube_001
@@ -76,6 +100,14 @@ ModelImporter:
     2300036: Terrain
     2300038: Text
     2300040: Waterfall
+    2300042: Plane_001
+    2300044: Plane_002
+    2300046: Plane_003
+    2300048: Plane_004
+    2300050: Plane_005
+    2300052: Plane_006
+    2300054: Plane_007
+    2300056: Plane_008
     3300000: Circle
     3300002: Cube
     3300004: Cube_001
@@ -97,6 +129,14 @@ ModelImporter:
     3300036: Terrain
     3300038: Text
     3300040: Waterfall
+    3300042: Plane_001
+    3300044: Plane_002
+    3300046: Plane_003
+    3300048: Plane_004
+    3300050: Plane_005
+    3300052: Plane_006
+    3300054: Plane_007
+    3300056: Plane_008
     4300000: Terrain
     4300002: Text
     4300004: Cube_015
@@ -118,6 +158,14 @@ ModelImporter:
     4300036: Cube
     4300038: Plane
     4300040: Circle
+    4300042: Plane_008
+    4300044: Plane_007
+    4300046: Plane_006
+    4300048: Plane_005
+    4300050: Plane_004
+    4300052: Plane_003
+    4300054: Plane_002
+    4300056: Plane_001
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
