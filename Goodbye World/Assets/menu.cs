@@ -7,6 +7,6 @@ public class menu : MonoBehaviour {
 
 	// Use this for initialization
 	public void onInitnScene (int scene) {
-		Application.LoadLevel(scene);
+        SceneManager.LoadScene(1);
 	}
 }

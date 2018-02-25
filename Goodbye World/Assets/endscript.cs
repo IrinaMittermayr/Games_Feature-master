@@ -7,12 +7,13 @@ using UnityEngine.SceneManagement;
 public class endscript : MonoBehaviour {
 
 
-	void onTriggerEnter(){
-		onInitnScene ();
+	void OnTriggerEnter(Collider other){
+        if(other.tag=="Player")
+		    onInitnScene ();
 	}
 
 	// Use this for initialization
 	public void onInitnScene () {
-		Application.LoadLevel(1);
+        SceneManager.LoadScene(2);
 	}
 }
